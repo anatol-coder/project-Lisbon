@@ -84,6 +84,38 @@ header h3 {
   opacity: 70%;
   margin: 0;
 }
+.grid-3-columns-one-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url(../images/town.png);
+  padding: 100px 171px 92px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  opacity: 70%;
+}
+footer li {
+  list-style: none;
+}
+footer ul {
+  padding: 0;
+  margin-right: 0;
+}
+footer h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+footer p {
+  font-weight: regular;
+  font-size: 16px;
+  opacity: 60%;
+}
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
