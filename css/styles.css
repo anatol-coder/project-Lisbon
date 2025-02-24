@@ -1,3 +1,72 @@
 body {
-  background-color: aquamarine;
+  font-family: "Poppins, sans-serif";
+  background: #272044;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 16px 32px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
+    ),
+    url(../images/lisbon-bridge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 286px 292px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h2 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header h3 {
+  font-size: 40px;
+  font-weight: regular;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  button {
+    padding: 5px;
+    font-size: 10px;
+  }
 }
