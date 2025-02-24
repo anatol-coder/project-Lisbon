@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins, sans-serif";
+  font-family: "Poppins";
   background: #272044;
 }
 .container {
@@ -8,15 +8,14 @@ body {
 }
 .text-center {
   text-align: center;
-  .img-responsive {
-    max-width: 100%;
-  }
+}
+.img-responsive {
+  max-width: 100%;
 }
 header a {
   text-decoration: none;
   color: black;
 }
-
 button {
   padding: 16px 32px;
   background-color: white;
@@ -62,7 +61,28 @@ header h3 {
 }
 .primary {
   background-color: white;
-  padding: 80px 170px;
+  padding: 80px 163px;
+}
+.primary h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #272044;
+  opacity: 30%;
+  letter-spacing: 5px;
+  margin: 0 0 10px;
+}
+.primary h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+.primary p {
+  font-size: 16px;
+  font-weight: regular;
+  color: #272044;
+  opacity: 70%;
+  margin: 0;
 }
 @media (max-width: 900px) {
   header {
@@ -82,5 +102,8 @@ header h3 {
   button {
     padding: 5px;
     font-size: 10px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
