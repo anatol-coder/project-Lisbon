@@ -8,6 +8,9 @@ body {
 }
 .text-center {
   text-align: center;
+  .img-responsive {
+    max-width: 100%;
+  }
 }
 header a {
   text-decoration: none;
@@ -49,6 +52,17 @@ header h2 {
 header h3 {
   font-size: 40px;
   font-weight: regular;
+}
+.grid {
+  display: grid;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 44px;
+}
+.primary {
+  background-color: white;
+  padding: 80px 170px;
 }
 @media (max-width: 900px) {
   header {
