@@ -199,7 +199,6 @@ footer p {
   header {
     padding: 60px 0;
   }
-
   header h1 {
     font-size: 48px;
   }
@@ -217,11 +216,42 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
   }
+  .primary {
+    padding: 15px;
+  }
+  .primary img {
+    margin-right: 2px;
+  }
+  .primary h2 {
+    margin-top: 15px;
+  }
+  .primary h3 {
+    margin-bottom: 15px;
+  }
+  .lisbon-description {
+    padding: 15px 30px 15px 0;
+  }
+  .secondary h3 {
+    font-size: 40px;
+    padding: 15px;
+  }
+  .secondary h2 {
+    padding-top: 25px;
+  }
   .grid-3-columns {
     padding: 15px;
   }
+  .card img {
+    display: none;
+  }
   .third {
-    padding: 20px 0 0 10px;
+    padding: 30px 10px 0 10px;
     margin: 0 auto;
+  }
+  .third h3 {
+    font-size: 40px;
+  }
+  .grid-3-columns-one-narrow {
+    padding: 15px;
   }
 }
