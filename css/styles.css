@@ -10,7 +10,8 @@ body {
   text-align: center;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 header a {
   text-decoration: none;
@@ -60,14 +61,14 @@ h4 {
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 44px;
 }
 .primary {
   background-color: white;
   padding: 80px 163px;
 }
 .primary h2,
-.secondary h2 {
+.secondary h2,
+.third h2 {
   font-size: 16px;
   font-weight: bold;
   color: #272044;
@@ -110,6 +111,10 @@ h4 {
 .secondary h5 {
   margin-bottom: 5px;
 }
+.lisbon-description {
+  margin-left: 44px;
+}
+
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -118,6 +123,15 @@ h4 {
 .card {
   background-color: white;
   padding: 32px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-header .grid {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
 }
 .secondary a {
   display: block;
@@ -142,6 +156,23 @@ h4 {
     ),
     url(../images/town.png);
   padding: 100px 171px 92px;
+}
+.third {
+  background-color: white;
+  padding: 70px 170px;
+}
+.third h3 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 5px;
+}
+.grid-3-columns-photos,
+.grid-3-columns-photos-two {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid-3-columns-photos {
+  margin-bottom: 20px;
 }
 footer a {
   color: white;
@@ -188,5 +219,9 @@ footer p {
   }
   .grid-3-columns {
     padding: 15px;
+  }
+  .third {
+    padding: 20px 0 0 10px;
+    margin: 0 auto;
   }
 }
